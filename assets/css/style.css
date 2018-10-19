@@ -5,8 +5,39 @@
 #titreK{
     color: red;
 }
-/* h2{
-  text-align: center;
-  text-shadow: 3px 3px 3px black;
-} */
 /* kenzo */
+/* carousel */
+.carousel-inner{
+  text-align: center;
+}
+#northface, #saintlaurent{
+  width: 15%;
+  height: 15%;
+}
+#kenzo{
+  width: 30%;
+  height: 30%;
+}
+/* articles */
+#fond{
+  background: #45fdc8;
+}
+#parka, #pull, #sac{
+  width: 85%;
+  height: 65%;
+}
+#titre-section{
+  text-align: center;
+  text-shadow: 3px 3px 3px white;
+  margin-top: -35px;
+}
+/* footer */
+footer{
+  text-align: center;
+  line-height: 20px;
+}
+#visa, #mastercard, #paypal, #bitcoin{
+  margin-right: 55px;
+  width: 4%;
+  height: 40%;
+}
