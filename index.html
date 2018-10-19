@@ -1,16 +1,134 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8" />
-  <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <meta charset="UTF-8">
   <title>Titre</title>
+  <link href="css/application.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 <body>
+  <!-- navbar -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">CPC</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+   <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">YSL <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">KENZO <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">THE NORTH FACE <span class="sr-only">(current)</span></a>
+        </a>
+      </li>
+    </ul>
+    <img src="assets/img/tete.png" href="#" alt="user" style="width:40px; margin-right:7px;"></a>
+    <img src="assets/img/caddie.png" href="#" alt="panier" style="width:40px; margin-right:7px;"></a>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+<!-- section the north face  -->
+<!-- premier article -->
+  <div class="jumbotron jumbotron-fluid">
+  <h2 class="display-4">The North Face</h2>
+    <div class="card-deck">
+  <div class="card">
+    <img class="card-img-top" src="assets/img/the.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">The North Face Black Series Shelter Mountain Jacket </h5>
+      <div class="row">
+              <div class="col-6">
+                <p>525 €</p>
+              </div>
+              <div class="col-5">
+              <select>
+                <option value="choix">Choisir la taille</option>
+                <option value="xs">XS</option>
+                <option value="s">S</option>
+                <option value="m">M</option>
+                <option value="l">L</option>
+                <option value="xl">XL</option>
+              </select>
+            </div>
+            </div>
+      <p class="card-text">Matière principale: Polyester (100%)</p>
+      <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">Ajouter au panier</button>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">#06737B</small>
+    </div>
+  </div>
+  <!-- deuxième article -->
+  <div class="card">
+    <img class="card-img-top" src="assets/img/north.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Junya Watanabe MAN x The North Face Print Wind Jacket</h5>
+      <div class="row">
+              <div class="col-6">
+                <p>535 €</p>
+              </div>
+              <div class="col-5">
+              <select>
+                <option value="choix">Choisir la taille</option>
+                <option value="xs">XS</option>
+                <option value="s">S</option>
+                <option value="m">M</option>
+                <option value="l">L</option>
+                <option value="xl">XL</option>
+              </select>
+            </div>
+            </div>
+      <p class="card-text">Matière principale: Nylon (100%)</p>
+      <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">Ajouter au panier</button>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">#70376R</small>
+    </div>
+  </div>
+  <!-- troisième article -->
+  <div class="card">
+    <img class="card-img-top" src="assets/img/thenorth.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Junya Watanabe MAN x The North Face Windstopper Jacket</h5>
+      <div class="row">
+              <div class="col-6">
+                <p>735 €</p>
+              </div>
+              <div class="col-5">
+              <select>
+                <option value="choix">Choisir la taille</option>
+                <option value="xs">XS</option>
+                <option value="s">S</option>
+                <option value="m">M</option>
+                <option value="l">L</option>
+                <option value="xl">XL</option>
+              </select>
+            </div>
+            </div>
+      <p class="card-text">Matière principale: Coton & Nylon Blend</p>
+      <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">Ajouter au panier</button>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">#40937L</small>
+    </div>
+  </div>
+</div>
+</div>
+<!-- fin section the north face -->
+
+
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  <script src="jquery-3.2.1.js"></script>
-  <script src="assets/js/script.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
