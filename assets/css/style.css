@@ -1,14 +1,15 @@
 /* kenzo */
 #fondk{
-  background:  #6556b8;
+  background: #c5c5c5;
 }
 #titreK{
-    color: red;
+    color: #b05702;
 }
 /* kenzo */
 /* carousel */
 .carousel-inner{
   text-align: center;
+  margin-top: 5.5%;
 }
 #northface, #saintlaurent{
   width: 15%;
@@ -20,7 +21,7 @@
 }
 /* articles */
 #fond{
-  background: #45fdc8;
+  background: #c5c5c5;
 }
 #parka, #pull, #sac{
   width: 85%;
@@ -28,8 +29,8 @@
 }
 #titre-section{
   text-align: center;
-  text-shadow: 3px 3px 3px white;
   margin-top: -35px;
+  color:  #b05702;
 }
 /* footer */
 footer{
@@ -40,4 +41,16 @@ footer{
   margin-right: 55px;
   width: 4%;
   height: 40%;
+}
+h2{
+  text-align: center;
+}
+#T{
+  color:  #b05702 ;
+}
+#couleur{
+  background: #c5c5c5;
+}
+.couleur1{
+  background: #000101;
 }
