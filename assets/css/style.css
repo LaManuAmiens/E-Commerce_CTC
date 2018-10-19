@@ -1,0 +1,22 @@
+h2{
+  text-align: center;
+  text-shadow: 3px 3px 3px black;
+}
+#T{
+  color: black;
+}
+#couleur{
+  background: #C41818;
+}
+#couleur1{
+  background: #000000;
+}
+#couleur2{
+  background: #000000;
+}
+#couleur3{
+  background: #000000;
+}
+.jumbotron{
+  color: white;
+}
