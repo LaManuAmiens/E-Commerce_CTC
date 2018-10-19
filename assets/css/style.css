@@ -11,15 +11,25 @@
   height: 30%;
 }
 /* articles */
+#fond{
+  background: #45fdc8;
+}
 #parka, #pull, #sac{
   width: 85%;
   height: 65%;
 }
-h2{
+#titre-section{
   text-align: center;
+  text-shadow: 3px 3px 3px white;
   margin-top: -35px;
 }
 /* footer */
 footer{
   text-align: center;
+  line-height: 20px;
+}
+#visa, #mastercard, #paypal, #bitcoin{
+  margin-right: 55px;
+  width: 4%;
+  height: 40%;
 }

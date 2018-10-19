@@ -3,10 +3,31 @@
 <head>
   <meta charset="utf-8" />
   <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" media="screen and (max-width: 1280px)" href="petite_resolution.css" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <title>Titre</title>
 </head>
 <body>
+  <!-- Button modal -->
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Panier</button>
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Panier</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary">Valider</button>
+        </div>
+      </div>
+    </div>
+  </div>
   <!-- carousel -->
   <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
@@ -46,8 +67,8 @@
     </a>
   </div>
   <!-- section Saint Laurent -->
-  <div class="jumbotron jumbotron-fluid">
-    <h2>SAINT LAURENT</h2>
+  <div class="jumbotron jumbotron-fluid" id="fond">
+    <h2 id="titre-section">SAINT LAURENT</h2>
     <!-- 1er article -->
       <div class="card-deck">
         <div class="card">
@@ -113,18 +134,14 @@
                 <p>890€</p>
               </div>
               <div class="col-5">
-                <select>
+                <select id="taille">
                   <option value="choix">Choisir la taille</option>
-                  <option value="xs">XS</option>
-                  <option value="s">S</option>
-                  <option value="m">M</option>
-                  <option value="l">L</option>
-                  <option value="xl">XL</option>
+                  <option value="TU">TU</option>
                 </select>
               </div>
             </div>
               <p class="card-text">Velour côtelé, détails en cuir.</p>
-            <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">Ajouter au panier</button>
+            <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off" id="ajout">Ajouter au panier</button>
           </div>
           <div class="card-footer">
             <small class="text-muted">Réf: #39518G</small>
@@ -135,12 +152,29 @@
   <!-- footer -->
   <footer>
     <div class="row">
-      <div class="col-6">
+      <div class="col-3">
         <h6>A propos</h6>
-        <p>CTC est un site de E-commerce spécialisé dans la vente de vêtements de luxe.</p>
+          <p>CTC est un site de E-commerce spécialisé dans la</p>
+          <p>vente de vêtements de luxe.</p>
       </div>
-      <div class="col-6">
+      <div class="col-5">
+        <h6>Nos engagements</h6>
+          <p>Livraison en 3 jours.</p>
+          <p>Retour gratuit sous 10 jours.</p>
+          <p>Paiement sécurisé.</p>
+      </div>
+      <div class="col-4">
         <h6>Contact</h6>
+          <p>ctc@gmail.com</p>
+          <p>03.66.46.07.37</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <img src="assets/img/visa.png" alt="visa" id="visa">
+        <img src="assets/img/mastercard.jpg" alt="mastercard" id="mastercard">
+        <img src="assets/img/paypal.png" alt="paypal" id="paypal">
+        <img src="assets/img/bitcoin.png" alt="bitcoin" id="bitcoin">
       </div>
     </div>
   </footer>
