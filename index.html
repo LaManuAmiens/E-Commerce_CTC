@@ -3,81 +3,48 @@
 <head>
   <meta charset="utf-8" />
   <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="stylesheet" media="screen and (max-width: 1280px)" href="petite_resolution.css" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  <title>Titre</title>
+  <title>Front clothing</title>
 </head>
 <body>
-<a id="haut"></a>
+  <a id="haut"></a>
 <!-- navbar -->
-<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-<a class="navbar-brand" href="#">FRONT CLOTHING</a>
-<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-  <span class="navbar-toggler-icon"></span>
-</button>
- <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#" id="nom">FRONT CLOTHING</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
   <ul class="navbar-nav mr-auto">
-    <li class="nav-item active">
       <!--  -->
       <div class="row">
-        <div class="col-5">
-      <div class="dropdown">
-      <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-      THE NORTH FACE
-      <span class="caret"></span>
-      </button>
-      <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-      <li><a href="#" title="Lien 1">Manteaux/Veste</a></li>
-      <li role="separator" class="divider"></li>
-      </ul>
+        <div class="col-3">
+          <a class="nav" href="#ysl">Saint Laurent</a>
+        </div>
+        <div class="col-3">
+          <a class="nav" href="#kenzo2">Kenzo</a>
+        </div>
+        <div class="col-6">
+          <a class="nav" href="#thenf">The North Face</a>
+        </div>
       </div>
-    </div>
-    <div class="col-2">
-      <div class="dropdown">
-      <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-      YSL
-      <span class="caret"></span>
-      </button>
-      <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-      <li><a href="#" title="Lien 1">Manteaux</a></li>
-      <li><a href="#" title="Lien 1">Pull</a></li>
-      <li><a href="#" title="Lien 1">Sac à dos</a></li>
-      <li role="separator" class="divider"></li>
-      </ul>
-      </div>
-    </div>
-      <!--  -->
-      <div class="col-3">
-      <div class="dropdown">
-      <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-      KENZO
-      <span class="caret"></span>
-      </button>
-      <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-      <li><a href="#" title="Lien 1">Manteaux/Veste</a></li>
-      <li><a href="#" title="Lien 1">Pull</a></li>
-      <li><a href="#" title="Lien 1">Sac à dos</a></li>
-      <li role="separator" class="divider"></li>
-      </ul>
-      </div>
-    </div>
-    </div>
-    </li>
-      <!--  -->
+    <!--  -->
   </ul>
-  <img src="assets/img/tete.png" href="#" alt="user" style="width:40px; margin-right:7px;"></a>
-  <img src="assets/img/caddie.png" href="#" alt="user" style="width:40px; margin-right:7px;"></a>
-  <form class="form-inline my-2 my-lg-0">
-    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-  </form>
-</div>
-</nav>
+  <!-- bouton panier -->
+  <button type="button" class="btn btn-light" data-toggle="modal" data-target="#exampleModal"><img src="assets/img/caddie.png" style="width:20px; margin-right:2px;"></button>
+  <!-- fin bouton -->
+  <button type="button" class="btn btn-light"><img src="assets/img/tete.png" href="#" alt="user" style="width:20px; margin-right:2px;"></button>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+  </nav>
 <!-- carousel -->
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="assets/img/northface2.png" alt="northface" id="northface">
+      <img src="assets/img/northface-pub2.jpg" alt="northface" id="northface">
     </div>
     <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -88,7 +55,7 @@
       <span class="sr-only">Next</span>
     </a>
     <div class="carousel-item">
-      <img src="assets/img/kenzo.png" alt="kenzo" id="kenzo">
+      <img src="assets/img/kenzo-pub.jpg" alt="kenzo" id="kenzo">
     </div>
     <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -99,7 +66,7 @@
       <span class="sr-only">Next</span>
     </a>
     <div class="carousel-item">
-      <img src="assets/img/saintlaurent.jpeg" alt="saintlaurent" id="laurent">
+      <img src="assets/img/sl.jpg" alt="saintlaurent" id="laurent">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -111,41 +78,112 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
-<!-- Button modal -->
-<!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Panier</button> -->
-<!-- Modal -->
-<!-- <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Panier</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-primary">Valider</button>
+<!-- fenêtre modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Panier</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="cardPanier" id="card1" style="width: 20rem;" hidden>
+              <img class="card-img-top" src="assets/img/blouson.jpg" alt="parka" style="width:3rem;">
+                <h5 class="card-title">Saint Laurent Army Parka</h5>
+              <p class="price-container" value="4000">4 000€</p>
+              <p>Réf: #06247P</p>
+                <button type="button" class="btn btn-danger" id="deletecard1" data-toggle="modal" data-target="#modal">Supprimer</button>
+                <input type="number" class="quantite" id="qt1" name="nombre" value="" min="1" max="900">
+          </div>
+          <div class="cardPanier" id="card2" style="width: 20rem;" hidden>
+              <img class="card-img-top" src="assets/img/pull.jpg" alt="pull" style="width:3rem;">
+                <h5 class="card-title">Saint Laurent Sunset Military Crew</h5>
+              <p class="price-container" value="1000">1 000€</p>
+              <p>Réf: #70148R</p>
+                <button type="button" class="btn btn-danger" id="deletecard2" data-toggle="modal" data-target="#modal">Supprimer</button>
+              <input type="number" class="quantite" id="qt2" name="nombre" value="" min="1" max="900">
+          </div>
+          <div class="cardPanier" id="card3" style="width: 20rem;" hidden>
+              <img class="card-img-top" src="assets/img/sac.jpg" alt="sac" style="width:3rem;">
+                <h5 class="card-title">Saint Laurent City Backpack</h5>
+              <p class="price-container" value="890">890€</p>
+              <p>Réf: #39518G</p>
+                <button type="button" class="btn btn-danger" id="deletecard3" data-toggle="modal" data-target="#modal">Supprimer</button>
+              <input type="number" class="quantite" id="qt3" name="nombre" value="" min="1" max="900">
+          </div>
+          <div class="cardPanier" id="card4" style="width: 20rem;" hidden>
+              <img class="card-img-top" src="assets/img/Kenzo_leather.jpg" alt="jacket" style="width:3rem;">
+                <h5 class="card-title">Kenzo Hooded Leather Jacket</h5>
+              <p class="price-container" value="1565">1 565€</p>
+              <p>Réf: #25229K</p>
+                <button type="button" class="btn btn-danger" id="deletecard4" data-toggle="modal" data-target="#modal">Supprimer</button>
+              <input type="number" class="quantite" id="qt4" name="nombre" value="" min="1" max="900">
+          </div>
+          <div class="cardPanier" id="card5" style="width: 20rem;" hidden>
+              <img class="card-img-top" src="assets/img/kenzo_tiger" alt="sweat" style="width:3rem;">
+                <h5 class="card-title">Kenzo Dragon Tiger Embroidered Sweat</h5>
+              <p class="price-container" value="249">249€</p>
+              <p>Réf: #68985K</p>
+                <button type="button" class="btn btn-danger" id="deletecard5" data-toggle="modal" data-target="#modal">Supprimer</button>
+              <input type="number" class="quantite" id="qt5" name="nombre" value="" min="1" max="900">
+          </div>
+          <div class="cardPanier" id="card6" style="width: 20rem;" hidden>
+              <img class="card-img-top" src="assets/img/kenzon_backpack.jpg" alt="sac" style="width:3rem;">
+                <h5 class="card-title">Kenzo Leather Tiger Backpack</h5>
+              <p class="price-container" value="735">735€</p>
+              <p>Réf: #30841K</p>
+                <button type="button" class="btn btn-danger" id="deletecard6" data-toggle="modal" data-target="#modal">Supprimer</button>
+              <input type="number" class="quantite" id="qt6" name="nombre" value="" min="1" max="900">
+          </div>
+          <div class="cardPanier" id="card7" style="width: 20rem;" hidden>
+              <img class="card-img-top" src="assets/img/the.jpg" alt="veste" style="width:3rem;">
+                <h5 class="card-title">The North Face Black Series Shelter Mountain Jacket</h5>
+              <p class="price-container" value="525">525€</p>
+              <p>Réf: #06737B</p>
+                <button type="button" class="btn btn-danger" id="deletecard7" data-toggle="modal" data-target="#modal">Supprimer</button>
+              <input type="number" class="quantite" id="qt7" name="nombre" value="" min="1" max="900">
+          </div>
+          <div class="cardPanier" id="card8" style="width: 20rem;" hidden>
+              <img class="card-img-top" src="assets/img/north.jpg" alt="veste" style="width:3rem;">
+                <h5 class="card-title">Junya Watanabe MAN x The North Face Print Wind Jacket</h5>
+              <p class="price-container" value="535">535€</p>
+              <p>Réf: #70376R</p>
+                <button type="button" class="btn btn-danger" id="deletecard8" data-toggle="modal" data-target="#modal">Supprimer</button>
+              <input type="number" class="quantite" id="qt8" name="nombre" value="" min="1" max="900">
+          </div>
+          <div class="cardPanier" id="card9" style="width: 20rem;" hidden>
+              <img class="card-img-top" src="assets/img/thenorth.jpg" alt="veste" style="width:3rem;">
+                <h5 class="card-title">Junya Watanabe MAN x The North Face Windstopper Jacket</h5>
+              <p class="price-container" value="735">735€</p>
+              <p>Réf: #40937L</p>
+                <button type="button" class="btn btn-danger" id="deletecard9" data-toggle="modal" data-target="#modal">Supprimer</button>
+              <input type="number" class="quantite" id="qt9" name="nombre" value="" min="1" max="900">
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" id="commander">Commander</button>
+        </div>
       </div>
     </div>
   </div>
-</div> -->
 <!-- section Saint Laurent -->
+<section id="ysl">
 <div class="jumbotron jumbotron-fluid" id="fond">
   <h2 class="display-4" id="titre-section">SAINT LAURENT</h2>
   <!-- 1er article -->
     <div class="card-deck">
-      <div class="card" class="couleur1">
+      <div class="card">
+        <img class="card-img-top" src="assets/img/blouson.jpg" alt="parka" id="parka">
         <div class="card-body">
-          <img src="assets/img/blouson.jpg" alt="parka" id="parka">
-            <h5 class="card-title">Parka army</h5>
+            <h5 class="card-title">Saint Laurent Army Parka</h5>
           <div class="row">
             <div class="col-6">
               <p>4 000€</p>
             </div>
             <div class="col-5">
-              <select>
+              <select class="taille">
                 <option value="choix">Choisir la taille</option>
                 <option value="xs">XS</option>
                 <option value="s">S</option>
@@ -155,24 +193,24 @@
               </select>
             </div>
           </div>
-            <p class="card-text">53% Coton, 47% Polyamide.</p>
-          <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">Ajouter au panier</button>
+            <p class="card-text">53% Coton, 47% Polyamide</p>
+            <button type="button" class="btn btn-primary" data-toggle="button" data-target="#modal" id="ajout">Ajouter au panier</button>
         </div>
         <div class="card-footer">
           <small class="text-muted">Réf: #06247P</small>
         </div>
       </div>
       <!-- 2eme article -->
-      <div class="card" class="couleur1">
+      <div class="card">
+        <img class="card-img-top" src="assets/img/pull.jpg" alt="pull" id="pull">
         <div class="card-body">
-          <img src="assets/img/pull.jpg" alt="pull" id="pull">
-            <h5 class="card-title">Pull militaire Sunset</h5>
+            <h5 class="card-title">Saint Laurent Sunset Military Crew</h5>
           <div class="row">
             <div class="col-6">
               <p>1 000€</p>
             </div>
             <div class="col-5">
-              <select>
+              <select class="taille">
                 <option value="choix">Choisir la taille</option>
                 <option value="xs">XS</option>
                 <option value="s">S</option>
@@ -182,18 +220,18 @@
               </select>
             </div>
           </div>
-            <p class="card-text">100% coton.</p>
-          <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">Ajouter au panier</button>
+            <p class="card-text">100% coton</p>
+            <button type="button" class="btn btn-primary" data-toggle="button" data-target="#modal" id="ajout2">Ajouter au panier</button>
         </div>
         <div class="card-footer">
           <small class="text-muted">Réf: #70148R</small>
         </div>
       </div>
       <!-- 3eme article -->
-      <div class="card" class="couleur1">
+      <div class="card">
+        <img class="card-img-top" src="assets/img/sac.jpg" alt="sac" id="sac">
         <div class="card-body">
-          <img src="assets/img/sac.jpg" alt="sac" id="sac">
-            <h5 class="card-title">Sac à dos City</h5>
+            <h5 class="card-title">Saint Laurent City Backpack</h5>
           <div class="row">
             <div class="col-6">
               <p>890€</p>
@@ -205,8 +243,8 @@
               </select>
             </div>
           </div>
-            <p class="card-text">Velour côtelé, détails en cuir.</p>
-          <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off" id="ajout">Ajouter au panier</button>
+            <p class="card-text">Velour côtelé, détails en cuir</p>
+          <button type="button" class="btn btn-primary" data-toggle="button" data-target="#modal" id="ajout3">Ajouter au panier</button>
         </div>
         <div class="card-footer">
           <small class="text-muted">Réf: #39518G</small>
@@ -214,18 +252,19 @@
       </div>
     </div>
 </div>
-
+</section>
+<section id="kenzo2">
   <!-- section kenzo  -->
   <div class="jumbotron jumbotron-fluid" id="fondk">
     <h2 class="display-4" id="titreK">KENZO</h2>
     <div class="card-deck">
-      <div class="card" class="couleur1">
-        <img class="card-img-top" src="assets/img/Kenzo_leather.jpg" alt="Card image cap">
+      <div class="card">
+        <img class="card-img-top" src="assets/img/Kenzo_leather.jpg" alt="Card image cap" id="jacket">
         <div class="card-body">
           <h5 class="card-title">Kenzo Hooded Leather Jacket</h5>
         <div class="row">
           <div class="col-6">
-            <p>€1,565</p>
+            <p>1 565€</p>
           </div>
           <div class="col-5">
             <select>
@@ -238,21 +277,21 @@
             </select>
           </div>
         </div>
-          <p class="card-text">veste en cuir</p>
-          <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">Ajouter au panier</button>
+          <p class="card-text">Veste en cuir</p>
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal" id="ajout4">Ajouter au panier</button>
         </div>
         <div class="card-footer">
           <small class="text-muted">Réf: #25229K</small>
         </div>
       </div>
        <!--kenzo tiger-->
-      <div class="card" class="couleur1">
-        <img class="card-img-top" src="assets/img/kenzo_tiger" alt="Card image cap">
+      <div class="card">
+        <img class="card-img-top" src="assets/img/kenzo_tiger.jpg" alt="Card image cap" id="tiger">
         <div class="card-body">
           <h5 class="card-title">Kenzo Dragon Tiger Embroidered Sweat</h5>
           <div class="row">
             <div class="col-6">
-              <p>€249</p>
+              <p>249€</p>
             </div>
             <div class="col-5">
               <select>
@@ -266,30 +305,30 @@
             </div>
           </div>
           <p class="card-text">100% Coton Maillot Loopback Tigre Dragon brodé</p>
-          <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">Ajouter au panier</button>
+          <button type="button" class="btn btn-primary" data-toggle="button" data-target="#modal" id="ajout5">Ajouter au panier</button>
         </div>
         <div class="card-footer">
           <small class="text-muted">Réf: #68985K</small>
         </div>
       </div>
        <!--kenzo Backpack-->
-      <div class="card" class="couleur1">
-        <img class="card-img-top" src="assets/img/kenzon_backpack.jpg" alt="Card image cap">
+      <div class="card">
+        <img class="card-img-top" src="assets/img/kenzon_backpack.jpg" alt="Card image cap" id="backpack">
         <div class="card-body">
           <h5 class="card-title">Kenzo Leather Tiger Backpack</h5>
           <div class="row">
             <div class="col-6">
-              <p>€735</p>
+              <p>735€</p>
             </div>
             <div class="col-5">
               <select>
                 <option value="choix">Choisir la taille</option>
-                <option value="xs">one size</option>
+                <option value="TU">TU</option>
               </select>
             </div>
           </div>
-          <p class="card-text">Du cuir de veau, Broderie Tigre Branding.</p>
-          <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">Ajouter au panier</button>
+          <p class="card-text">Du cuir de veau, Broderie Tigre Branding</p>
+          <button type="button" class="btn btn-primary" data-toggle="button" data-target="#modal" id="ajout6">Ajouter au panier</button>
         </div>
         <div class="card-footer">
           <small class="text-muted">Réf: #30841K</small>
@@ -297,17 +336,18 @@
       </div>
     </div>
   </div>
+</section>
   <!-- kenzo fin -->
   <!-- section the north face  -->
   <!-- premier article -->
-
+  <section id="thenf">
   <div class="jumbotron jumbotron-fluid" id="couleur">
-    <h2 class="display-4" id="T">The North Face</h2>
+    <h2 class="display-4" id="titre">THE NORTH FACE</h2>
     <div class="card-deck">
-      <div class="card" class="couleur1">
-        <img class="card-img-top" src="assets/img/the.jpg" alt="Card image cap">
+      <div class="card">
+        <img class="card-img-top" src="assets/img/the.jpg" alt="Card image cap" id="mountain">
         <div class="card-body">
-          <h5 class="card-title">The North Face Black Series Shelter Mountain Jacket </h5>
+          <h5 class="card-title">The North Face Black Series Shelter Mountain Jacket</h5>
             <div class="row">
                 <div class="col-6">
                   <p>525 €</p>
@@ -324,15 +364,15 @@
                 </div>
             </div>
           <p class="card-text">Matière principale: Polyester (100%)</p>
-            <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">Ajouter au panier</button>
+          <button type="button" class="btn btn-primary" data-toggle="button" data-target="#modal" id="ajout7">Ajouter au panier</button>
         </div>
         <div class="card-footer">
           <small class="text-muted">Réf: #06737B</small>
         </div>
       </div>
       <!-- deuxieme article  -->
-      <div class="card" class="couleur1">
-        <img class="card-img-top" src="assets/img/north.jpg" alt="Card image cap">
+      <div class="card">
+        <img class="card-img-top" src="assets/img/north.jpg" alt="Card image cap" id="watanabe">
       <div class="card-body">
         <h5 class="card-title">Junya Watanabe MAN x The North Face Print Wind Jacket</h5>
       <div class="row">
@@ -351,15 +391,15 @@
         </div>
       </div>
         <p class="card-text">Matière principale: Nylon (100%)</p>
-          <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">Ajouter au panier</button>
+        <button type="button" class="btn btn-primary" data-toggle="button" data-target="#modal" id="ajout8">Ajouter au panier</button>
       </div>
       <div class="card-footer">
         <small class="text-muted">Réf: #70376R</small>
       </div>
       </div>
       <!-- troisieme artcile -->
-      <div class="card" class="couleur1">
-          <img class="card-img-top" src="assets/img/thenorth.jpg" alt="Card image cap">
+      <div class="card">
+          <img class="card-img-top" src="assets/img/thenorth.jpg" alt="Card image cap" id="windstopper">
             <div class="card-body">
               <h5 class="card-title">Junya Watanabe MAN x The North Face Windstopper Jacket</h5>
             <div class="row">
@@ -378,7 +418,7 @@
                 </div>
             </div>
               <p class="card-text">Matière principale: Coton & Nylon Blend</p>
-            <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">Ajouter au panier</button>
+              <button type="button" class="btn btn-primary" data-toggle="button" data-target="#modal" id="ajout9">Ajouter au panier</button>
           </div>
           <div class="card-footer">
             <small class="text-muted">Réf: #40937L</small>
@@ -386,29 +426,29 @@
         </div>
     </div>
   </div>
+</section>
   <!-- fin section the north face -->
   <!-- footer -->
   <footer>
     <div class="row">
-      <div class="col-3">
+      <div class="col-md-3">
         <h6>A propos</h6>
-          <p>CTC est un site de E-commerce spécialisé dans la</p>
-          <p>vente de vêtements de luxe.</p>
+          <p>Front Clothing est un site de E-commerce spécialisé dans la vente de vêtements de luxe.</p>
       </div>
-      <div class="col-5">
+      <div class="col-md-5">
         <h6>Nos engagements</h6>
           <p>Livraison en 3 jours.</p>
           <p>Retour gratuit sous 10 jours.</p>
           <p>Paiement sécurisé.</p>
       </div>
-      <div class="col-4">
+      <div class="col-md-4">
         <h6>Contact</h6>
-          <p>ctc@gmail.com</p>
+          <p>front-clothing@gmail.com</p>
           <p>03.66.46.07.37</p>
       </div>
     </div>
     <div class="row">
-      <div class="col">
+      <div class="col-md-12">
         <img src="assets/img/visa.png" alt="visa" id="visa">
         <img src="assets/img/mastercard.jpg" alt="mastercard" id="mastercard">
         <img src="assets/img/paypal.png" alt="paypal" id="paypal">
@@ -416,12 +456,10 @@
       </div>
     </div>
   </footer>
-<a href="#haut">haut de page</a>
+    <a href="#haut"><img src="assets/img/fleche.png" id="fleche"></a>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
-  <script src="js/script.js"></script>
+  <script src="assets/js/script.js"></script>
 </body>
 </html>

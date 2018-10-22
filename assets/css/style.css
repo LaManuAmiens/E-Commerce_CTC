@@ -1,36 +1,64 @@
-/* kenzo */
+#nom{
+  font-family: wvelez_logofont;
+}
+.jumbotron{
+  color: white;
+}
+.nav{
+  color: white;
+}
+/* fond jumbotron */
+    /* kenzo */
 #fondk{
-  background: #c5c5c5;
+  background: #ab1212;
 }
+    /* saint laurent */
+#fond{
+  background: #ab1212;
+}
+    /* the north face */
+#couleur{
+  background: #ab1212;
+}
+/* titre section */
+    /* kenzo */
 #titreK{
-    color: #b05702;
+  font-family: winter_sans;
+  color: #ffffff;
 }
-/* kenzo */
+    /* saint laurent */
+#titre-section{
+  font-family: winter_sans;
+  color: #ffffff;
+}
+    /* the north face */
+#titre{
+  font-family: winter_sans;
+  color: #ffffff;
+}
 /* carousel */
 .carousel-inner{
   text-align: center;
   margin-top: 5.5%;
 }
-#northface, #saintlaurent{
-  width: 15%;
-  height: 15%;
+#laurent{
+  width: 62%;
+  height: 10%;
 }
 #kenzo{
-  width: 30%;
-  height: 30%;
+  width: 53%;
+  height: 10%;
 }
-/* articles */
-#fond{
-  background: #c5c5c5;
+#northface{
+  width: 63%;
+  height: 10%;
 }
-#parka, #pull, #sac{
-  width: 85%;
-  height: 65%;
-}
-#titre-section{
+/* the north face */
+h2{
   text-align: center;
-  margin-top: -35px;
-  color:  #b05702;
+}
+.card-body{
+  background: #393942;
 }
 /* footer */
 footer{
@@ -42,15 +70,7 @@ footer{
   width: 4%;
   height: 40%;
 }
-h2{
-  text-align: center;
-}
-#T{
-  color:  #b05702 ;
-}
-#couleur{
-  background: #c5c5c5;
-}
-.couleur1{
-  background: #000101;
+#fleche{
+  width: 5%;
+  height: 5%;
 }
